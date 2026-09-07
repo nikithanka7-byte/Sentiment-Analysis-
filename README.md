@@ -199,14 +199,25 @@ Confidence: 95%
 [streamlit-app-2026-09-07-20-31-08.webm](https://github.com/user-attachments/assets/91c0347e-5a40-4572-b84b-d0ebbad595a9)
 
 
+---
 
 ## 📋 **Requirements**
 
-Streamlit 
-Transformer Pipeline 
-Hugging Face Model
-PyTorch 
-VS Code
+The following technologies and tools are used in this project:
+
+- 🐍 **Python**
+- 🎈 **Streamlit**
+- 🔄 **Transformer Pipeline**
+- 🤗 **Hugging Face Pre-trained Model**
+- 🔥 **PyTorch**
+- 💻 **VS Code**
+
+### 📦 **Python Libraries**
+
+```text
+streamlit
+transformers
+torch
 ```
 
 ---
@@ -224,7 +235,7 @@ VS Code
 
 ## 🌍 **Applications**
 
-Sentiment Analysis can be used in:
+**Sentiment Analysis** can be used in:
 
 - ⭐ **Product Reviews**
 - 💬 **Customer Feedback**
@@ -249,15 +260,6 @@ Sentiment Analysis can be used in:
 
 ---
 
-## ⚠️ **Limitations**
-
-- The prediction depends on the **pre-trained model**.
-- **Sarcasm** can be difficult to detect.
-- Complex sentences may sometimes be classified incorrectly.
-- The model may perform differently on text outside its training domain.
-
----
-
 ## 🚀 **Future Enhancements**
 
 - 📊 **Add sentiment analysis charts**
@@ -279,6 +281,7 @@ Sentiment Analysis can be used in:
 
 **Project:** **AI-Based Sentiment Analysis**
 
+✨ **Created by Nikitha R.**
 
 ---
 
@@ -292,4 +295,7 @@ This project is created for **educational and academic purposes**.
 
 If you find this project useful, please consider giving it a **⭐ Star** on GitHub!
 
-**Thank you for visiting my project! 😊**
+### **Thank you for visiting my project! 😊**
+
+
+
