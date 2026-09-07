@@ -196,7 +196,8 @@ Confidence: 95%
 
 ---
 ## 🖥️ **Application Preview**
-[Uploading streamlit-app-2026-09-07-20-31-08.webm…]()
+[streamlit-app-2026-09-07-20-31-08.webm](https://github.com/user-attachments/assets/91c0347e-5a40-4572-b84b-d0ebbad595a9)
+
 
 
 ## 📋 **Requirements**
