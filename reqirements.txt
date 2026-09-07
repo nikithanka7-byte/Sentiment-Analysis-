@@ -1,0 +1,5 @@
+Streamlit 
+Transformer Pipeline 
+Hugging Face Model 
+PyTorch 
+VS Code
