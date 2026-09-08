@@ -1,52 +1,52 @@
-# 😊 **Sentiment Analysis using Hugging Face & Streamlit**
+# **Sentiment Analysis using Hugging Face & Streamlit**
 
 > **An AI-powered web application that analyzes text and classifies it as Positive, Negative, or Neutral.**
 
 ---
 
-## 📌 **Project Overview**
+## **Project Overview**
 
 **Sentiment Analysis** is a Natural Language Processing (NLP) technique used to identify the emotional tone of text.
 
 This project uses a **pre-trained Hugging Face Transformer model** to analyze user input and predict whether the sentiment is:
 
-- 😊 **Positive**
-- 😞 **Negative**
-- 😐 **Neutral**
+- **Positive**
+- **Negative**
+- **Neutral**
 
 The application is developed using **Python** and **Streamlit** to provide a simple and interactive web interface.
 
 ---
 
-## ✨ **Features**
+## **Features**
 
-- 📝 **Enter text or sentences**
-- 🤖 **AI-based sentiment prediction**
-- 😊 **Positive sentiment detection**
-- 😞 **Negative sentiment detection**
-- 😐 **Neutral sentiment detection**
-- 📊 **Confidence score**
-- 🎈 **Simple Streamlit interface**
-- 🤗 **Pre-trained Hugging Face model**
-- ⚡ **Fast and easy prediction**
+- **Enter text or sentences**
+- **AI-based sentiment prediction**
+- **Positive sentiment detection**
+- **Negative sentiment detection**
+- **Neutral sentiment detection**
+- **Confidence score**
+- **Simple Streamlit interface**
+- **Pre-trained Hugging Face model**
+- **Fast and easy prediction**
 
 ---
 
-## 🛠️ **Technologies Used**
+## **Technologies Used**
 
 | **Technology** | **Purpose** |
 |---|---|
-| 🐍 **Python** | Application development |
-| 🎈 **Streamlit** | Web interface |
-| 🤗 **Hugging Face** | Pre-trained AI model |
-| 🔄 **Transformers** | Transformer pipeline |
-| 🔥 **PyTorch** | Deep learning framework |
-| 🧠 **RoBERTa** | Sentiment classification |
-| 💻 **VS Code / Jupyter Lab** | Development environment |
+| **Python** | Application development |
+| **Streamlit** | Web interface |
+| **Hugging Face** | Pre-trained AI model |
+| **Transformers** | Transformer pipeline |
+| **PyTorch** | Deep learning framework |
+| **RoBERTa** | Sentiment classification |
+| **VS Code / Jupyter Lab** | Development environment |
 
 ---
 
-## 🧠 **Model Used**
+## **Model Used**
 
 This project uses the Hugging Face model:
 
@@ -58,38 +58,37 @@ The model is based on **RoBERTa** and is used for sentiment classification.
 
 | **Sentiment** | **Meaning** |
 |---|---|
-| 😊 **Positive** | Expresses a positive feeling or opinion |
-| 😞 **Negative** | Expresses a negative feeling or opinion |
-| 😐 **Neutral** | Expresses a neutral or factual statement |
+| **Positive** | Expresses a positive feeling or opinion |
+| **Negative** | Expresses a negative feeling or opinion |
+| **Neutral** | Expresses a neutral or factual statement |
 
 ---
 
-## 🔄 **How It Works**
+## **How It Works**
 
 ```text
-👤 User
+User
    ↓
-📝 Enter Text
+Enter Text
    ↓
-🎈 Streamlit Interface
+Streamlit Interface
    ↓
-🔄 Transformer Pipeline
+Transformer Pipeline
    ↓
-🤗 Hugging Face Model
+Hugging Face Model
    ↓
-🧠 RoBERTa Model
+RoBERTa Model
    ↓
 ┌──────────┬──────────┬──────────┐
 ↓          ↓          ↓
-😊         😞         😐
 Positive   Negative   Neutral
    ↓
-📊 Confidence Score
+Confidence Score
 ```
 
 ---
 
-## 📂 **Project Structure**
+## **Project Structure**
 
 ```text
 Sentiment-Analysis/
@@ -101,7 +100,7 @@ Sentiment-Analysis/
 
 ---
 
-## ⚙️ **Installation**
+## **Installation**
 
 ### **1. Clone the Repository**
 
@@ -129,7 +128,7 @@ pip install streamlit transformers torch
 
 ---
 
-## ▶️ **Run the Application**
+## **Run the Application**
 
 Run the following command in the VS Code terminal:
 
@@ -141,9 +140,9 @@ The application will open in your web browser.
 
 ---
 
-## 🧪 **Example**
+## **Example**
 
-### 😊 **Positive Sentiment**
+### **Positive Sentiment**
 
 **Input:**
 
@@ -154,13 +153,13 @@ I really enjoyed this movie!
 **Output:**
 
 ```text
-😊 Positive
+Positive
 Confidence: 99%
 ```
 
 ---
 
-### 😞 **Negative Sentiment**
+### **Negative Sentiment**
 
 **Input:**
 
@@ -171,13 +170,13 @@ This product is terrible and disappointing.
 **Output:**
 
 ```text
-😞 Negative
+Negative
 Confidence: 98%
 ```
 
 ---
 
-### 😐 **Neutral Sentiment**
+### **Neutral Sentiment**
 
 **Input:**
 
@@ -188,31 +187,32 @@ The meeting starts at 10 AM.
 **Output:**
 
 ```text
-😐 Neutral
+Neutral
 Confidence: 95%
 ```
 
 > **Note:** Confidence scores may vary depending on the model's prediction.
 
 ---
-## 🖥️ **Application Preview**
-[streamlit-app-2026-09-07-20-31-08.webm](https://github.com/user-attachments/assets/91c0347e-5a40-4572-b84b-d0ebbad595a9)
 
+## **Application Preview**
+
+[streamlit-app-2026-09-08-19-48-12.webm](https://github.com/user-attachments/assets/cc3d88b9-531c-45f7-b0ed-9260f0a40f5a)
 
 ---
 
-## 📋 **Requirements**
+## **Requirements**
 
 The following technologies and tools are used in this project:
 
-- 🐍 **Python**
-- 🎈 **Streamlit**
-- 🔄 **Transformer Pipeline**
-- 🤗 **Hugging Face Pre-trained Model**
-- 🔥 **PyTorch**
-- 💻 **VS Code**
+- **Python**
+- **Streamlit**
+- **Transformer Pipeline**
+- **Hugging Face Pre-trained Model**
+- **PyTorch**
+- **VS Code**
 
-### 📦 **Python Libraries**
+### **Python Libraries**
 
 ```text
 streamlit
@@ -222,58 +222,58 @@ torch
 
 ---
 
-## 🎯 **Project Objectives**
+## **Project Objectives**
 
-- 📚 **Understand Natural Language Processing (NLP)**
-- 🤖 **Use a pre-trained Transformer model**
-- 🧠 **Perform sentiment classification**
-- 🤗 **Learn how to use Hugging Face Transformers**
-- 🎈 **Build an interactive application using Streamlit**
-- 💻 **Integrate AI into a simple web application**
+- **Understand Natural Language Processing (NLP)**
+- **Use a pre-trained Transformer model**
+- **Perform sentiment classification**
+- **Learn how to use Hugging Face Transformers**
+- **Build an interactive application using Streamlit**
+- **Integrate AI into a simple web application**
 
 ---
 
-## 🌍 **Applications**
+## **Applications**
 
 **Sentiment Analysis** can be used in:
 
-- ⭐ **Product Reviews**
-- 💬 **Customer Feedback**
-- 📱 **Social Media Analysis**
-- 🛒 **E-Commerce Reviews**
-- 📊 **Market Research**
-- 🎧 **Customer Support**
-- 📰 **News and Opinion Analysis**
-- 🏢 **Business Feedback Analysis**
+- **Product Reviews**
+- **Customer Feedback**
+- **Social Media Analysis**
+- **E-Commerce Reviews**
+- **Market Research**
+- **Customer Support**
+- **News and Opinion Analysis**
+- **Business Feedback Analysis**
 
 ---
 
-## ✅ **Advantages**
+## **Advantages**
 
-- 👍 **Easy to use**
-- ⚡ **Fast prediction**
-- 🤖 **Uses a pre-trained AI model**
-- 🎯 **Supports Positive, Negative, and Neutral sentiments**
-- 💻 **Simple and interactive interface**
-- 🧠 **No model training is required**
-- 🔧 **Easy to modify and improve**
-
----
-
-## 🚀 **Future Enhancements**
-
-- 📊 **Add sentiment analysis charts**
-- 📈 **Add sentiment history**
-- 📁 **Support CSV file upload**
-- 📊 **Analyze multiple reviews**
-- 🌐 **Add multilingual sentiment analysis**
-- 💾 **Export results to CSV**
-- 🎨 **Improve the Streamlit UI**
-- ☁️ **Deploy the application online**
+- **Easy to use**
+- **Fast prediction**
+- **Uses a pre-trained AI model**
+- **Supports Positive, Negative, and Neutral sentiments**
+- **Simple and interactive interface**
+- **No model training is required**
+- **Easy to modify and improve**
 
 ---
 
-## 👩‍💻 **Author**
+## **Future Enhancements**
+
+- **Add sentiment analysis charts**
+- **Add sentiment history**
+- **Support CSV file upload**
+- **Analyze multiple reviews**
+- **Add multilingual sentiment analysis**
+- **Export results to CSV**
+- **Improve the Streamlit UI**
+- **Deploy the application online**
+
+---
+
+## **Author**
 
 ### **Nikitha R.**
 
@@ -281,21 +281,6 @@ torch
 
 **Project:** **AI-Based Sentiment Analysis**
 
-✨ **Created by Nikitha R.**
-
----
-
-## 📜 **License**
-
-This project is created for **educational and academic purposes**.
-
----
-
-## ⭐ **Support**
-
-If you find this project useful, please consider giving it a **⭐ Star** on GitHub!
-
-### **Thank you for visiting my project! 😊**
-
+**Created by Nikitha R.**
 
 
